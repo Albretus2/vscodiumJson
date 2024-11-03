@@ -1,0 +1,128 @@
+{  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[laravel]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+
+  //   "[html]": {
+  //     "editor.defaultFormatter": "oleksandr.beatify-ejs"
+  //   },
+  // "emmet.includeLanguages": {
+  //   "javascript": "html"
+  // },
+
+  "doki.statusbar.name": "🚧 Dusster ",
+  "git.openRepositoryInParentFolders": "always",
+  "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "cr",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+
+  /** ------------ Windows Settings ------------ **/
+  "window.nativeFullScreen": true,
+  "window.newWindowDimensions": "inherit",
+  "window.titleBarStyle": "custom",
+
+  /** ------------ File Settings ------------ **/
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.refactoring.autoSave": false,
+
+  /** ------------ Explore Settings ------------ **/
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 1,
+
+  /** ------------ Workbench Settings ------------ **/
+  "workbench.colorCustomizations": {
+    "inlineparameters.annotationBackground": "#282A3600",
+    "inlineparameters.annotationForeground": "#7b82af",
+    "scrollbar.shadow": "#24292e00"
+  },
+  "workbench.editorLargeFileConfirmation": 10024,
+  "workbench.tree.indent": 16,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "terminal",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+
+  /** ------------ Breadcrumbs Configurations ------------ **/
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.enabled": false,
+
+  /** ------------ Editor Settings ------------ **/
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono,fira code, 'Hack', monospace",
+  "editor.fontSize": 15,
+  "editor.fontWeight": 380,
+  "editor.lineHeight": 1.8, //1.8
+  //   "editor.lineNumbers": "off",
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "underline",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.snippetSuggestions": "inline",
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontLigatures": true,
+  "editor.maxTokenizationLineLength": 2000,
+  "editor.experimentalWhitespaceRendering": "font",
+  "editor.letterSpacing": 1,
+  "editor.cursorBlinking": "blink",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.padding.top": 15,
+  "editor.hover.delay": 200,
+
+  /** ------------ Terminal Configurations ------------ **/
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono,fira code, 'Hack', monospace",
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+
+  /** ------------ Additional Configurations ------------ **/
+  "vscode_custom_css.imports": [
+    // "file:///Users/alberr/Document/vscode-custom/style.css"
+    "file:///Users/alberr/.vscode/syle.css"
+  ],
+  "apc.electron": {
+    "backgroundColor": "rgba(123, 123, 123, 0.5)"
+  },
+
+  "apc.stylesheet": {
+    "*": "font-family: JetBrainsMono Nerd Font Mono,fira code, 'Hack', monospace"
+  },
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": true,
+  "workbench.activityBar.location": "top"
+}
